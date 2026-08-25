@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Ticket</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="top-bar">
+    📧 sar@gmail.com | 📞 +966123456789  
+    | <a href="https://facebook.com">Facebook</a>
+    | <a href="https://twitter.com">Twitter</a>
+</div>
+
+<img src="images/logo.jpg" class="logo">
+
+<nav>
+  <ul class="menu">
+    <li><a href="index.html">Home</a></li>
+
+    <li class="dropdown">
+      <a href="travel.html">Travel with SAR ▼</a>
+      <ul class="dropdown-content">
+        <li><a href="travel.html">Riyadh</a></li>
+        <li><a href="travel.html">Jeddah</a></li>
+        <li><a href="travel.html">Dammam</a></li>
+      </ul>
+    </li>
+
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="register.html">Create Account</a></li>
+    <li><a href="login.html">Sign In</a></li>
+<li><a href="book.html">Booking</a></li>
+  </ul>
+</nav>
+
+
+
+<section>
+
+
+<div class="booking-container">
+
+  <h2>🚆 Book Your Train Ticket</h2>
+
+  <!-- Trip Type -->
+  <div class="trip-type">
+    <label><input type="radio" name="trip" checked> One Way</label>
+    <label><input type="radio" name="trip"> Round Trip</label>
+    <label><input type="radio" name="trip"> Multi Route</label>
+  </div>
+
+  <!-- Booking Form -->
+  <div class="booking-form">
+
+    <div class="form-group">
+	<label>From:</label>
+	<select required>
+	<option value="">Select City</option>
+	<option>Riyadh</option>
+	<option>Jeddah</option>
+	<option>Dammam</option>
+	</select>
+    </div>
+
+    <div class="form-group">
+	<label>To:</label>
+	<select required>
+	<option value="">Select Destination</option>
+	<option>Makkah</option>
+	<option>Madinah</option>
+	<option>Dammam</option>
+	</select>
+    </div>
+
+    <div class="form-group">
+      <label>Departure Date</label>
+      <input type="date">
+    </div>
+
+    <div class="form-group">
+      <label>Travelers</label>
+      <select>
+        <option>1 Traveler</option>
+        <option>2 Travelers</option>
+        <option>3 Travelers</option>
+      </select>
+    </div>
+
+  </div>
+
+  <!-- Extra Option -->
+  <div class="extra">
+    <label><input type="checkbox"> Group Booking (10+ passengers)</label>
+  </div>
+
+  <!-- Button -->
+  <button class="search-btn">🔍 Search Trains</button>
+
+</div>
+
+
+</section>
+
+
+<footer>© 2nd-2025-26 / IMSIU / CCIS TM</footer>
+
+</body>
+</html>

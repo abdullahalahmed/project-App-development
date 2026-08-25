@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js"></script>
+</head>
+
+<body>
+<div class="top-bar">
+    📧 sar@gmail.com | 📞 +966123456789  
+    | <a href="https://facebook.com">Facebook</a>
+    | <a href="https://twitter.com">Twitter</a>
+</div>
+
+<img src="images/logo.jpg" class="logo">
+
+<nav>
+  <ul class="menu">
+    <li><a href="index.html">Home</a></li>
+
+    <li class="dropdown">
+      <a href="travel.html">Travel with SAR ▼</a>
+      <ul class="dropdown-content">
+        <li><a href="travel.html">Riyadh</a></li>
+        <li><a href="travel.html">Jeddah</a></li>
+        <li><a href="travel.html">Dammam</a></li>
+      </ul>
+    </li>
+
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="register.html">Create Account</a></li>
+    <li><a href="login.html">Sign In</a></li>
+<li><a href="book.html">Booking</a></li>
+  </ul>
+</nav>
+
+
+<form onsubmit="return login()">
+
+<input type="text" placeholder="Username" required>
+<input type="password" placeholder="Password" required>
+
+<button type="submit">Login</button>
+
+</form>
+
+<button id="bookBtn" style="display:none;"
+onclick="location.href='book.html'">
+
+Book a Ticket
+
+</button>
+
+<footer>© 2nd-2025-26 / IMSIU / CCIS TM</footer>
+
+</body>
+</html>
